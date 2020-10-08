@@ -1,0 +1,40 @@
+
+.flex-container {
+    height: 6%;
+    background-color: rgb(203, 255, 182);
+    padding: 4%;
+    border-radius: 5px;
+    border: black 20px;
+    font-weight: 500;
+    display: flex;
+}
+
+.buttons {
+    margin-top: 0px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 10px 100px;
+    border-radius: 5px;
+    border-width: 20px;
+    background: rgb(255, 110, 110);
+    border: none; 
+    display: flex;
+  } 
+
+  .square {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: large;
+    border: 4px solid black;
+    background: rgb(255, 255, 255);
+    padding: 1em
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .container {
+    display: flex;
+  }
