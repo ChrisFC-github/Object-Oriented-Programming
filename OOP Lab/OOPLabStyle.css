@@ -1,12 +1,13 @@
 
 .flex-container {
     height: 6%;
-    background-color: rgb(203, 255, 182);
+    background-color: rgb(255, 255, 255);
     padding: 4%;
     border-radius: 5px;
     border: black 20px;
     font-weight: 500;
     display: flex;
+    margin: 0 auto;
 }
 
 .buttons {
@@ -16,25 +17,36 @@
     padding: 10px 100px;
     border-radius: 5px;
     border-width: 20px;
-    background: rgb(255, 110, 110);
-    border: none; 
+    background: rgb(230, 255, 118);
+    border: 1px solid black;
     display: flex;
+    margin: 0 auto;
   } 
+
+  .container {
+    height: 6%;
+    background-color: rgb(255, 255, 255);
+    padding: 4%;
+    border-radius: 5px;
+    border: black 20px;
+    font-weight: 500;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid black;
+    grid-gap: 15px;
+}
 
   .square {
     height: 100px;
     width: 100px;
-    text-align: center;
     font-size: large;
-    border: 4px solid black;
+    border: 2px solid black;
     background: rgb(255, 255, 255);
-    padding: 1em
+    position: flex;
+    margin: 0 auto;
+    border-radius: 5px;
   }
-  
-  .row {
-    display: flex;
-  }
-  
-  .container {
-    display: flex;
+
+  div {
+    margin: 0 auto;
   }

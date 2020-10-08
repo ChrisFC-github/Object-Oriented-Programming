@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function () { // DOM CONTENT loade
     let parentDiv = document.createElement("div");
     let answer = 0;
     document.body.appendChild(parentDiv);
-    parentDiv.classList.add("container", "d-flex", "justify-content-around", "row");
+    parentDiv.classList.add("container", "d-flex", "justify-content-center", "row");
 
     class Die {
         constructor (value) {
             this.value = value;
             this.div = document.createElement("div");
-            this.div.classList.add("square", "d-flex", "justify-content-around");
+            this.div.classList.add("square", "d-flex", "justify-content-center", "col-xs", "col-xs-offset-2");
             this.div.innerHTML = this.value;
             this.div.addEventListener ("click", () => {
                 this.roll();
