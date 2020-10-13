@@ -1,0 +1,69 @@
+.flex-container {
+    padding: 0.4%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.statusContainer {
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+
+.shapeBox {
+  height: 600px;
+  width: 600px;
+  background: rgb(251, 123, 255);
+  border: 0.5px solid rgb(151, 151, 151);
+  border-radius: 5px;
+  padding: 1%;
+  position: relative;
+}
+
+.statusBox {
+  height: 600px;
+  width: 340px;
+  background: rgb(255, 253, 121);
+  padding: 4%;
+  display: flex;
+  margin-left: 80px;
+  border: 0.5px solid rgb(151, 151, 151);
+  border-radius: 5px;
+}
+
+.rectangle {
+  height: 0px;
+  width: 0px;
+  display: flex;
+  border: 1px solid black;
+  background: green;
+  position: relative;
+  margin: 0 auto;
+}
+
+.square {
+  height: 0px;
+  width: 0px;
+  display: flex;
+  border: 1px solid black;
+  background: red;
+  position: relative;
+  margin: 0 auto;
+}
+
+.circle {
+  height: 0px;
+  width: 0px;
+  display: flex;
+  border: 1px solid black;
+  background: purple;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 0px solid yellow;
+  border-right: 0px solid transparent;
+}

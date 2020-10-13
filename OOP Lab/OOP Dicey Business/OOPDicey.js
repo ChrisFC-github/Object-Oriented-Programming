@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () { // DOM CONTENT loade
     let parentDiv = document.createElement("div");
     let answer = 0;
     document.body.appendChild(parentDiv);
-    parentDiv.classList.add("container", "d-flex", "justify-content-center", "row");
+    parentDiv.classList.add("shapeBox", "d-flex", "justify-content-center", "row");
 
     class Die {
         constructor (value) {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () { // DOM CONTENT loade
                 this.roll();
             });
             this.div.addEventListener ("dblclick", () => {
-                let index = diceArr.indexOf(this.div.innerHTML);
+                let index = diceArr.indexOf(this);
                 diceArr.splice(index, 1);
                 this.div.remove();
                 console.log(diceArr)
@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () { // DOM CONTENT loade
         }
         roll() {
             this.value = (Math.floor(Math.random() * 6) + 1);
-            this.div.innerHTML = "";
             this.div.innerHTML = this.value;
         }
         sum() {

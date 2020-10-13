@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Shape Up or Shape Out</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="OOPLabStyle.css" media="screen" />
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="row">
+            <div class="col-sm"><h1>ADD SHAPES!</h1></div>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="row">
+            <div class="col-sm">
+                <input id="btnSubmitRec" type="submit" value="Add Rectangle">
+            </div>
+            <div class="col-sm">
+                <input id="recHeight" type="number" min="1" placeholder="Height px">
+            </div>
+            <div class="col-sm">
+                <input id="recWidth" type="number" min="1" placeholder="Width px">
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="row flex-start">
+            <div class="col-sm">
+                <input id="recsideL" type="number" min="1" placeholder="Side Length px">
+            </div>
+            <div class="col-sm">
+                <input id="btnSubmitSqr" type="submit" value="Add Square">
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="row flex-start">
+            <div class="col-sm">
+                <input id="btnSubmitCir" type="submit" value="Add Circle">
+            </div>
+            <div class="col-sm">
+                <input id="recDiam" type="number" min="1" placeholder="Radius px">
+            </div>
+        </div>
+    </div>
+   
+    <div class="flex-container">
+        <div class="row flex-start">
+            <div class="col-sm">
+                <input id="recTriHeight" type="number" min="1" placeholder="Height px">
+            </div>
+            <div class="col-sm">
+                <input id="btnSubmitTri" type="submit" value="Add Triangle">
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container statusContainer">
+        <div class="row" id="canvas"></div>
+        <div class="statusBox">
+            <div class="flex-start">
+                <div class="row flex-start">
+                <div class="col-sm">
+                    <div>Shape Name</div>
+                    <div><input id="shapeDesc" type="text" placeholder=""></div>
+                    <div>Width</div>
+                    <div><input id="widthDesc" type="text" placeholder=""></div>
+                    <div>Height</div>
+                    <div><input id="heightDesc"  type="text" placeholder=""></div>
+                    <div>Radius</div>
+                    <div><input id="radiusDesc"  type="text" placeholder=""></div>
+                    <div>Area</div>
+                    <div><input id="areaDesc"  type="text" placeholder=""></div>
+                    <div>Perimeter</div>
+                    <div><input id="perimeterDesc"  type="text" placeholder=""></div>
+                </div>
+                </div>
+            </div> 
+        </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="OOPLabScript.js"></script>
+</body>
+
+</html>
